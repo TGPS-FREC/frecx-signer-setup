@@ -56,8 +56,21 @@ rm -rf logs/
 ./add-signer.sh
 ```
 
+- After the node is executed successfully, review the log and you will be able to start synching to the blockchain
+- Each epoch is 4200 Blocks, so your node will be considered as Master Node after 2100 Block(checkpoint)
+- You will start to receive your reward for mining after 2 epoch only
+
 #### Stop network
+- if you are connected to test network and if you want to stop the network.. It is very cruicial steps
 
 ```shell
 ./stop-reset.sh
+```
+
+#### Restart Network
+- if you are connected to test network and if you want to restart with your existing state, then simply run
+- do not remove nodes/ or logs/ directory (removing these directory will flush all your state and node will start fresh again)
+
+```shell
+./add-signer.sh
 ```
