@@ -37,6 +37,17 @@ this will setup all core libraries required for FREC-Network, by compiling & set
 
 # Get the Enode detail from Frec Governance Team, once you are done with KYC & Staking
 
+### Prepare .env
+
+```
+cp .env.sample .env
+
+```
+
+- Change ENODE to the one you got it from governance committee
+- Provide your Private_Key of the wallet address that you used for "Staking"
+
+
 ### Add Signer 
 
 ```shell
