@@ -18,7 +18,7 @@ WORK_DIR=${PWD}
 LOG_DIR="${WORK_DIR}/logs"
 PROJECT_DIR="${WORK_DIR}/core"
 FRE="${PROJECT_DIR}/build/bin/FRE"
-GENESIS_FILE="${WORK_DIR}/genesis/genesis.json"
+GENESIS_FILE="${WORK_DIR}/genesis/FRECxv1.json"
 
 touch .pwd
 mkdir -p "${LOG_DIR}"
